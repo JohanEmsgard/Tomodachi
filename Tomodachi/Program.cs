@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+Console.WriteLine("Welcome to Tamagotchi");
+
+Newclass s1 = new Newclass(); 
+
+Console.WriteLine();
+
+Console.ReadLine();
+
+
