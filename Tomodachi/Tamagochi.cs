@@ -8,9 +8,6 @@ public class Tamagochi
     private bool isAlive;
     private Random generator; 
     public string name;  
-    public void feed;
-    public void Hi;
-    public void Teach(string word);
 
 
      public Tamagochi()
@@ -20,40 +17,19 @@ public class Tamagochi
 
      }
 
-     public void feed()
+     public void Feed()
      {
-        Console.WriteLine();
-        hunger -=2; 
-        if (hunger < 0)
-        {
-            hunger = 0;
-        }
+      Console.WriteLine($"[{name}] is eating and becomeing less hungre");
+      hunger -= 2;
+      if (hunger < 0)
+      {
+         hunger = 0;
+      }
      }
 
-     public boredom()
-     {
 
-     }
-
-     public hunger()
-     {
-
-     }
-
-     public feed()
-     {
-
-     }
-
-     public Hi()
-     {
-
-     }
-
-     public Teach()
-     {
-      
-     }
+  
+    
 
 
 
