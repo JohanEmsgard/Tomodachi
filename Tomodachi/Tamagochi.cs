@@ -34,6 +34,12 @@ public class Tamagochi
       return isAlive;
      }
 
+     public void Hi()
+     {
+      int wordNum = generator.Next(words.Count);
+      Console.WriteLine($"[{name}] said {words[wordNum]}");
+     }
+
 
   
     
