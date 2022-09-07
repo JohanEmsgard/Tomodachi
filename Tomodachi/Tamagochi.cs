@@ -40,6 +40,8 @@ public class Tamagochi
       Console.WriteLine($"[{name}] said {words[wordNum]}");
      }
 
+     
+
 
   
     

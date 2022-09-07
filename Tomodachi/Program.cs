@@ -13,12 +13,17 @@ while (s1.GetAlive() == true)
 {
     Console.WriteLine("What do you want to do?");
     Console.WriteLine("Feed");
+    Console.WriteLine("Learn a new word");
     string action = Console.ReadLine();
     
     if (action == "1")
     {
         s1.Feed();
 
+    }
+    if (action == "2")
+    {
+        s1.Hi();
     }
     
 }
