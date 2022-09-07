@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 public class Tamagochi
 {
@@ -25,6 +26,12 @@ public class Tamagochi
       {
          hunger = 0;
       }
+     }
+
+
+     public bool GetAlive()
+     {
+      return isAlive;
      }
 
 

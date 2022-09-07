@@ -9,6 +9,13 @@ s1.name = Console.ReadLine();
 
 Console.WriteLine($"{s1.name} is a wonderfull name");
 
+while (Tamagochi.GetAlive() == true)
+{
+
+}
+
+
+
 
 
 Console.ReadLine();
