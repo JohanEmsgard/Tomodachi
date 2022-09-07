@@ -12,16 +12,19 @@ Console.WriteLine($"{s1.name} is a wonderfull name");
 while (s1.GetAlive() == true)
 {
     Console.WriteLine("What do you want to do?");
+    Console.WriteLine("Feed");
+    string action = Console.ReadLine();
+    
+    if (action == "1")
+    {
+        s1.Feed();
+
+    }
+    
 }
 
 
 Console.WriteLine("Press enter to exit");
-Console.ReadLine();
-
-
-
-
-
 Console.ReadLine();
 
 
