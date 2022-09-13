@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 public class Tamagochi
 {
-   public void printstats();
+   public void Printstats()
+   {
+      Console.WriteLine($"Name: {name} || Hunger: {hunger} || Boredom: {boredom} || Vocabulary: {words.Count} words");
+   }
     private int hunger;
     private int boredom;
     private List<string> words = new List<string> (){"Meow"};
     private bool isAlive;
     private Random generator; 
     public string name;  
-
-    private void reduceboredem();
-
 
 
 
