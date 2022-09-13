@@ -14,6 +14,7 @@ while (s1.GetAlive() == true)
     Console.WriteLine("What do you want to do?");
     Console.WriteLine("Feed");
     Console.WriteLine("Learn a new word");
+    Console.WriteLine("Play");
     string action = Console.ReadLine();
     
     if (action == "1")
@@ -25,6 +26,8 @@ while (s1.GetAlive() == true)
     {
         s1.Hi();
     }
+
+    
     
 }
 
