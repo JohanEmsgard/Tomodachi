@@ -27,7 +27,10 @@ while (s1.GetAlive() == true)
         s1.Hi();
     }
 
-    
+    if (action == "3")
+    {
+        s1.reduceboredem();
+    }
     
 }
 
