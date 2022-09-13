@@ -50,6 +50,11 @@ public class Tamagochi
      public void reduceboredem()
      {
       Console.WriteLine($"[{name}] is having fun");
+      boredom -= 2;
+      if (boredom < 0)
+      {
+         boredom = 0;
+      }
 
      }
 
