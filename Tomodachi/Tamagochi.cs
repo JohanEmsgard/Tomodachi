@@ -43,9 +43,25 @@ public class Tamagochi
      {
       int wordNum = generator.Next(words.Count);
       Console.WriteLine($"[{name}] said {words[wordNum]}");
+      reduceboredem();
      }
-
-
+     public void Teach(string word)
+     {
+      Console.WriteLine($" [{name}] learns: {word}");
+      words.Add(word);
+      reduceboredem();
+      }
+      
+      public void Tick()
+      {
+         hunger++;
+         boredom++;
+         if (hunger > 10 || boredom > 10)
+         {
+            isAlive = false;
+         }
+         
+      }
 
      public void reduceboredem()
      {

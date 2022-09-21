@@ -15,8 +15,9 @@ while (s1.GetAlive() == true)
     Console.WriteLine("Feed");
     Console.WriteLine("Learn a new word");
     Console.WriteLine("Play");
+    Console.WriteLine("Don't do shit");
     string action = Console.ReadLine();
-    
+
     if (action == "1")
     {
         s1.Feed();
@@ -31,10 +32,16 @@ while (s1.GetAlive() == true)
     {
         s1.reduceboredem();
     }
+
+    if (action == "4")
+    {
+        s1.Tick();
+    }
+    s1.Tick();
     
 }
 
-
+Console.WriteLine("Your Tamagochi died :(. IT*S DEATH IS OVER 9000");
 Console.WriteLine("Press enter to exit");
 Console.ReadLine();
 
